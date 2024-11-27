@@ -19,6 +19,7 @@ This repository contains
 
 ## Learning Outcomes
 
+👉 <a href="https://github.com/omaiss/DevOps-Course2024/tree/main/Blogs">Read the Blog Summary</a>
 
 ## 📘 DevOps Blog Summaries
 Welcome to my DevOps learning repository! Below, you'll find summaries of two insightful blogs that delve into cutting-edge containerization and traffic management tools: Podman and Kubernetes Ingress.
