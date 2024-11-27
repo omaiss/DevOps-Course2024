@@ -23,12 +23,17 @@ This repository contains practical DevOps learning resources, blog summaries, an
 
 ### DevOps Learning Journey
 This document captures the essence of my DevOps learning path, highlighting the tools, concepts, and best practices I’ve picked up along the way. It’s a reflective guide for anyone curious about how I’ve grown in this field.
+
 👉 <a id="learning-outcome" href="https://github.com/omaiss/DevOps-Course2024/blob/main/DevOps%20Learning%20Journey.md">Check out my Learning Journey</a>
 
 ### Blog Summary
+Dive into my curated summaries of insightful blogs that explore cutting-edge DevOps topics, such as Podman and Kubernetes Ingress. These summaries break down complex concepts into simple, digestible insights.
+
 👉 <a id="blog-summary" href="https://github.com/omaiss/DevOps-Course2024/tree/main/Blogs">Read the Blog Summary</a>
 
 ### Tooling Guide
+This section will soon include a hands-on guide to the DevOps tools I’ve explored, providing tips, tricks, and practical examples to help you get started with containerization, orchestration, CI/CD, and more.
+
 👉 <a id="tooling-guide" href="#">Coming Soon</a>
 
 ## 📘 DevOps Blog Summaries
