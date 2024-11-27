@@ -19,6 +19,7 @@ Welcome to my DevOps learning journey! This repository is a safe space to docume
 This repository contains practical DevOps learning resources, blog summaries, and tooling guides. Explore this journey as I dive into the exciting world of DevOps!
 
 ## Learning Outcomes
+👉 <a id="learning-outcome" href="[#](https://github.com/omaiss/DevOps-Course2024/blob/main/DevOps%20Learning%20Journey.md)">Check out my Learning Journey</a>
 
 ### Blog Summary
 👉 <a id="blog-summary" href="https://github.com/omaiss/DevOps-Course2024/tree/main/Blogs">Read the Blog Summary</a>
