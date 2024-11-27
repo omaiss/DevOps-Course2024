@@ -1,29 +1,35 @@
 # My DevOps Learning Journey
+
 Welcome to my DevOps learning journey! This repository is a safe space to document my journey, showcase practical work, and summarize and link blog posts.
 
-## Table of contents
+## Table of Contents
 <ol>
-  <li>Overview</li>
-  <li>Learning Outcomes</li>
+  <li><a href="#overview">Overview</a></li>
+  <li>
+    <a href="#learning-outcomes">Learning Outcomes</a>
     <ul>
-      <li>Read the DevOps Learning Guide </li>
-      <li>Read the Blog Summary</li>
-      <li>Read the Tooling Guide</li>
+      <li><a href="#blog-summary">Read the Blog Summary</a></li>
+      <li><a href="#tooling-guide">Read the Tooling Guide</a></li>
     </ul>
-  <li>Reach Out</li>
+  </li>
+  <li><a href="#reach-out">Reach Out</a></li>
 </ol>
 
 ## Overview
-This repository contains 
-
+This repository contains practical DevOps learning resources, blog summaries, and tooling guides. Explore this journey as I dive into the exciting world of DevOps!
 
 ## Learning Outcomes
 
-👉 <a href="https://github.com/omaiss/DevOps-Course2024/tree/main/Blogs">Read the Blog Summary</a>
+### Blog Summary
+👉 <a id="blog-summary" href="https://github.com/omaiss/DevOps-Course2024/tree/main/Blogs">Read the Blog Summary</a>
+
+### Tooling Guide
+👉 <a id="tooling-guide" href="#">Coming Soon</a>
 
 ## 📘 DevOps Blog Summaries
-Welcome to my DevOps learning repository! Below, you'll find summaries of two insightful blogs that delve into cutting-edge containerization and traffic management tools: Podman and Kubernetes Ingress.
+Welcome to my DevOps learning repository! Below, you'll find summaries of two insightful blogs that delve into cutting-edge containerization and traffic management tools: **Podman** and **Kubernetes Ingress**.
 
 ## Reach Out
-For questions or suggestions reach out here:
-Github: omaiss Gmail: omaisafzal225@gmail.com
+For questions or suggestions, reach out here:  
+- **GitHub**: [omaiss](https://github.com/omaiss)  
+- **Email**: omaisafzal225@gmail.com
