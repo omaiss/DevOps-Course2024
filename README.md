@@ -8,7 +8,7 @@ Welcome to my DevOps learning journey! This repository is a safe space to docume
   <li>
     <a href="#learning-outcomes">Learning Outcomes</a>
     <ul>
-      <li>DevOps Learning Journey</li>
+      <li><a href="#DevOps-Learning-Journey">DevOps Learning Journey</li>
       <li><a href="#blog-summary">Read the Blog Summary</a></li>
       <li><a href="#tooling-guide">Read the Tooling Guide</a></li>
     </ul>
