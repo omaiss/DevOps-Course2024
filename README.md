@@ -20,7 +20,7 @@ This repository contains
 ## Learning Outcomes
 
 
-##📘 DevOps Blog Summaries
+## 📘 DevOps Blog Summaries
 Welcome to my DevOps learning repository! Below, you'll find summaries of two insightful blogs that delve into cutting-edge containerization and traffic management tools: Podman and Kubernetes Ingress.
 
 ## Reach Out
