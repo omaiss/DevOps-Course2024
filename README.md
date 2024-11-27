@@ -37,7 +37,7 @@ This section will soon include a hands-on guide to the DevOps tools I’ve explo
 👉 <a id="tooling-guide" href="#">Coming Soon</a>
 
 ## 📘 DevOps Blog Summaries
-Welcome to my DevOps learning repository! Below, you'll find summaries of two insightful blogs that delve into cutting-edge containerization and traffic management tools: **Podman** and **Kubernetes Ingress**.
+Welcome to my DevOps learning repository! Below are summaries of two insightful blogs that delve into cutting-edge containerization and traffic management tools: **Podman** and **Kubernetes Ingress**.
 
 ## Reach Out
 For questions or suggestions, reach out here:  
