@@ -1,9 +1,4 @@
-
----
-
 ### **README for Kubernetes Ingress Blog**
-
-```markdown
 # 🌐 Mastering Kubernetes Ingress: A Gateway to Scalable and Efficient Traffic Management  
 [Read the Full Blog](https://medium.com/@omaisafzal225/mastering-kubernetes-ingress-a-gateway-to-scalable-and-efficient-traffic-management-5555b8807060)
 
@@ -23,8 +18,6 @@ Kubernetes Ingress is a powerful API object that simplifies managing external ac
 ### **Use Case Example**
 1. **Scenario**: You have multiple services (e.g., frontend, backend, API) that need to be accessed via a single domain.  
 2. **Solution**: Configure an Ingress resource to route traffic based on the URL path or subdomain.
-
----
 
 ### **Sample Ingress YAML**
 ```yaml
