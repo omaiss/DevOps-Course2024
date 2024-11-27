@@ -1,4 +1,3 @@
-### **README for Kubernetes Ingress Blog**
 # 🌐 Mastering Kubernetes Ingress: A Gateway to Scalable and Efficient Traffic Management  
 [Read the Full Blog](https://medium.com/@omaisafzal225/mastering-kubernetes-ingress-a-gateway-to-scalable-and-efficient-traffic-management-5555b8807060)
 
