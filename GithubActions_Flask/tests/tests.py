@@ -27,6 +27,10 @@ class FlaskTestCase(unittest.TestCase):
         self.assertEqual(data["title"], "Test Task")
 
     def test_update_task(self):
+        # Add a task to update
+        self.app.post('/tasks', json={"title": "Task to Update"})
+    
+        # Attempt to update the task
         response = self.app.put(
             '/tasks/1',
             json={"title": "Updated Task", "completed": True}
