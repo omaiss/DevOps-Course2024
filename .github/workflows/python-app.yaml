@@ -1,4 +1,4 @@
-name: Flask CI/CD
+name: Python Flask App CI
 
 on:
   push:
@@ -9,23 +9,33 @@ on:
       - main
 
 jobs:
-  test:
+  build-and-test:
     runs-on: ubuntu-latest
 
     steps:
+    # Checkout the code from the repository
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Set up Python
+    # Set up Python
+    - name: Set up Python 3.9
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'
+        python-version: 3.9
 
+    # Install dependencies
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
+        pip install -r GithubActions_Flask/requirements.txt
 
-    - name: Run Tests
+    # Run tests
+    - name: Run Unit Tests
       run: |
-        python -m unittest discover -s tests
+        python -m unittest discover -s GithubActions_Flask/tests
+
+    # Linting (Optional)
+    - name: Lint with Flake8
+      run: |
+        pip install flake8
+        flake8 GithubActions_Flask --count --select=E9,F63,F7,F82 --show-source --statistics
