@@ -34,7 +34,7 @@ Dive into my curated summaries of insightful blogs that explore cutting-edge Dev
 ### Tooling Guide
 Streamlining development workflows with Flask and GitHub Actions: A hands-on exploration of DevOps.
 
-👉 <a id="tooling-guide" href="https://github.com/omaiss/DevOps-Course2024/tree/main/GithubActions_Flask">See the Github Action</a>
+👉 <a id="tooling-guide" href="https://github.com/omaiss/DevOps-Course2024/blob/main/GithubActions_Flask/Flask_App_Explanation.md">See the Github Action</a>
 
 ## 📘 DevOps Blog Summaries
 Welcome to my DevOps learning repository! Below are summaries of two insightful blogs that delve into cutting-edge containerization and traffic management tools: **Podman** and **Kubernetes Ingress**.
