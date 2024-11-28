@@ -1,6 +1,6 @@
 import unittest
 import json
-from ..flask_app import app
+from GithubActions_Flask.flask_app import app  # Updated import path
 
 class FlaskTestCase(unittest.TestCase):
     def setUp(self):
