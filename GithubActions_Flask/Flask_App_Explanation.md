@@ -94,15 +94,16 @@ You can find the workflow configuration in `.github/workflows/python-app.yml`.
 ## 📄 File Structure
 
 ```
-📁 Home-Care-Pro/
+📁 DevOps-Course2024
 ├── 📁 .github/
 │   └── 📁 workflows/
 │       └── python-app.yml  # GitHub Actions workflow
-├── 📁 tests/
+├── 📁 GithubActions_Flask/tests/
 │   └── test_app.py         # Unit tests for the Flask app
-├── app.py                  # Main Flask application
-├── requirements.txt        # Python dependencies
-└── README.md               # Documentation
+├── 📁 GithubActions_Flask/tests/
+|   └── app.py                  # Main Flask application
+|   └──requirements.txt        # Python dependencies
+|   └──Flask_App_Explanation.md               # Documentation
 ```
 
 ---
