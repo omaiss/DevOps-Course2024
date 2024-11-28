@@ -38,14 +38,14 @@ def create_task():
 
 @app.route('/tasks/<int:task_id>', methods=['PUT'])
 def update_task(task_id):
-    task = tasks.get(task_id)
-    if not task:
+    if task_id < 1 or task_id > len(tasks):  # Check if task_id is valid
         return jsonify({"error": "Task not found"}), 404
-    
+
+    task = tasks[task_id - 1]  # Adjust for 0-based index in the list
     data = request.get_json()
     task["title"] = data.get("title", task["title"])
     task["completed"] = data.get("completed", task["completed"])
-    return jsonify(task)
+    return jsonify(task), 200
 
 @app.route('/tasks/<int:task_id>', methods=['DELETE'])
 def delete_task(task_id):
