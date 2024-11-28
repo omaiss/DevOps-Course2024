@@ -99,8 +99,10 @@ You can find the workflow configuration in `.github/workflows/python-app.yml`.
 │   └── 📁 workflows/
 │       └── python-app.yml  # GitHub Actions workflow
 ├── 📁 GithubActions_Flask/tests/
+|   └── __init__.py
 │   └── test_app.py         # Unit tests for the Flask app
 ├── 📁 GithubActions_Flask/
+|   └── __init__.py
 |   └── app.py                  # Main Flask application
 |   └──requirements.txt        # Python dependencies
 |   └──Flask_App_Explanation.md               # Documentation
