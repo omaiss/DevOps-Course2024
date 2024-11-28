@@ -38,13 +38,13 @@ def create_task():
 
 @app.route('/tasks/<int:task_id>', methods=['PUT'])
 def update_task(task_id):
-    task = next((task for task in tasks if task["id"] == task_id), None)
-    if task is None:
-        abort(404, description="Task not found")
-    if not request.json:
-        abort(400, description="Invalid input")
-    task["title"] = request.json.get("title", task["title"])
-    task["completed"] = request.json.get("completed", task["completed"])
+    task = tasks.get(task_id)
+    if not task:
+        return jsonify({"error": "Task not found"}), 404
+    
+    data = request.get_json()
+    task["title"] = data.get("title", task["title"])
+    task["completed"] = data.get("completed", task["completed"])
     return jsonify(task)
 
 @app.route('/tasks/<int:task_id>', methods=['DELETE'])
